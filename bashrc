@@ -1,0 +1,1 @@
+export PS1="\[\e[36m\]\${CODEPIER_NAMESPACE:-codepier}:\[\e[32m\]\${CODEPIER_NAME:-dev} \[\e[m\]\W> "

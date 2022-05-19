@@ -1,0 +1,5 @@
+namespace: default
+image: lukepolo/hello-world:node
+deployment: hello-world
+sync:
+  - .:/usr/src/app

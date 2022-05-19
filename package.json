@@ -1,0 +1,15 @@
+{
+  "name": "node-getting-started",
+  "version": "1.0.0",
+  "description": "Hello world app",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon index.js",
+    "debug": "node --inspect-brk=0.0.0.0:9229 index.js",
+    "docker:push": "docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -t lukepolo/hello-world:node --push ."
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
